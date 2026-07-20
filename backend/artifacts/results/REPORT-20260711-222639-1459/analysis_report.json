@@ -1,0 +1,17 @@
+{
+  "prediction": "Meningioma",
+  "confidence": 87.45,
+  "confidence_level": "High Confidence",
+  "probabilities": {
+    "Glioma": 5.4683,
+    "Meningioma": 87.4518,
+    "No Tumor": 6.6198,
+    "Pituitary": 0.4602
+  },
+  "inference_time_ms": 247.35,
+  "device": "CUDA",
+  "model": "EfficientNet-B0",
+  "model_version": "1.0.0",
+  "report_id": "REPORT-20260711-222639-1459",
+  "timestamp": "2026-07-11T22:26:39.315253"
+}

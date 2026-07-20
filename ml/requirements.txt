@@ -1,0 +1,20 @@
+# Brain Tumor Detection from MRI - Requirements
+# ================================================
+# Install with: pip install -r requirements.txt
+
+# Deep Learning Framework
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+
+# Image Processing
+Pillow>=10.0.0
+
+# Numerical Computing
+numpy>=1.24.0
+
+# Visualisation
+matplotlib>=3.7.0
+
+# Type checking (dev only)
+# mypy>=1.0.0

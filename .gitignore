@@ -1,0 +1,90 @@
+# ==============================================================================
+# NeuroVision AI - Root gitignore
+# ==============================================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+.venv/
+ENV/
+env/
+ENV/local/
+ENV/bin/
+
+# Local Environment Variables & Secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+backend/.env
+
+# IDE / Editor configurations
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*~
+
+# Frontend Node Modules & Build Outputs
+frontend/node_modules/
+frontend/dist/
+frontend/.oxlintrc.json
+frontend/.eslintcache
+frontend/package-lock.json
+
+# Machine Learning Artifacts & Cache
+# Ignore model weight checkpoints, but track the folder structure
+ml/artifacts/checkpoints/*.pth
+ml/artifacts/logs/
+ml/artifacts/results/
+ml/artifacts/duplicates/
+ml/artifacts/figures/
+ml/artifacts/reports/
+ml/artifacts/metadata/
+ml/logs/
+ml/cache/
+
+# Raw dataset folder (large images, do not commit)
+Brain Tumor Detection from MRI/
+
+# REST API Uploads & Logs
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/app/__pycache__/
+backend/app/config/__pycache__/
+backend/app/api/v1/__pycache__/
+backend/app/services/__pycache__/
+backend/app/middleware/__pycache__/
+backend/app/schemas/__pycache__/
+backend/app/utils/__pycache__/

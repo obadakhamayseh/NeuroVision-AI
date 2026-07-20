@@ -1,0 +1,22 @@
+# FastAPI REST API Backend - Requirements
+# ==============================================================
+# Install with: pip install -r requirements.txt
+
+# REST Framework & Server
+fastapi>=0.100.0
+pydantic>=2.0
+pydantic-settings>=2.0
+uvicorn[standard]>=0.20.0
+python-multipart>=0.0.6
+
+# Deep Learning (Shared with ML Layer)
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Image Processing & Utilities
+pillow>=10.0.0
+opencv-python-headless>=4.7.0
+numpy>=1.24.0
+
+# PDF Report Generation
+reportlab>=4.0.0
