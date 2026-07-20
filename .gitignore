@@ -69,7 +69,6 @@ ml/artifacts/checkpoints/*.pth
 ml/artifacts/logs/
 ml/artifacts/results/
 ml/artifacts/duplicates/
-ml/artifacts/figures/
 ml/artifacts/reports/
 ml/artifacts/metadata/
 ml/logs/
