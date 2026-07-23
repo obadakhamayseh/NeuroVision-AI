@@ -116,8 +116,6 @@ NeuroVision-AI/                                  # Repository Root
 │   ├── src/                              # Source code (Components, Pages, Stores)
 │   └── public/                           # Static assets
 │
-└── docs/                                 # Documentation
-    └── dataset.md                        # Dataset structure and details
 ```
 
 ---
